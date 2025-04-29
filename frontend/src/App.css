@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* App.css ya jahan bhi style likhte ho */
+.post-image {
+  height: 300px; /* jitna bada chahiye set kar lena */
+  width: 100%; /* pura card ke width ke barabar */
+  object-fit: cover; /* image ko distort hone se bachaega */
+}
+
+.container mt-4 {
+  background-color: black;
+}
+
+/* App.css */
+.app-container {
+  background-color: #e3e1e6; /* Jo bhi color chahiye wo likh */
+  min-height: 100vh; /* To ensure it takes full height of the screen */
+}
