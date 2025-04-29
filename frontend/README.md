@@ -1,12 +1,27 @@
-# React + Vite
+# Social Media App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Social Media Application** built using **React.js**, **Vite**, and **Bootstrap** for UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack:
+- **React.js**: JavaScript library for building user interfaces.
+- **Vite**: A modern, fast build tool and development server for React applications.
+- **Bootstrap**: A front-end framework for developing responsive and mobile-first websites.
+- **Axios**: Promise-based HTTP client for making requests to the backend API.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Features:
+1. **User Authentication**: Register and login users with JWT authentication.
+2. **Post Management**: View, create, and delete posts.
+3. **Comment Management**: Add, view, and delete comments on posts.
+
+---
+
+### Setup Instructions
+
+#### 1. Clone the repository
+```bash
+git clone <repository_url>
+cd social-media-app
